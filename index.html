@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feliz Aniversario, Luluh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<!-- COVER -->
+<div id="cover" class="page">
+  <h1>FELIZ ANIVERSARIO, LULUH! 🎂</h1>
+  <p>You’ve received a letter 💌</p>
+  <button onclick="openLetter()">Open Letter ✉️</button>
+</div>
+
+<!-- ENVELOPE -->
+<div id="envelopePage" class="page hidden">
+  <div class="envelope" onclick="revealLetter()">
+    <div class="flap"></div>
+    <div class="body"></div>
+  </div>
+  <p>Click the envelope</p>
+</div>
+
+<!-- LETTER -->
+<div id="letterPage" class="page hidden">
+  <div class="letter">
+    <p id="text"></p>
+  </div>
+</div>
+
+<!-- END -->
+<div id="endPage" class="page hidden">
+  <h1>Happy 20th Birthday 💙</h1>
+  <p>aproveite o seu dia!</p>
+  <p class="sign">— Theo</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
